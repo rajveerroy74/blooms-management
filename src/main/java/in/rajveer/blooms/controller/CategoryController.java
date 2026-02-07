@@ -15,8 +15,7 @@ public class CategoryController {
                 UUID.randomUUID().toString(),
                 request.getTitle(),
                 request.getDesc(),
-                request.getcUrl()
-        );
+                request.getCUrl());
         categories.add(response);
         return response;
     }

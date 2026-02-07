@@ -1,41 +1,14 @@
 package in.rajveer.blooms.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class CategoryRequest {
     private String title;
     private String desc;
     private String cUrl;
-
-    public CategoryRequest() {
-    }
-
-    public CategoryRequest(String title, String desc, String cUrl) {
-        this.title = title;
-        this.desc = desc;
-        this.cUrl = cUrl;
-    }
-
-    // Getters & Setters
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
-
-    public String getcUrl() {
-        return cUrl;
-    }
-
-    public void setcUrl(String cUrl) {
-        this.cUrl = cUrl;
-    }
 }

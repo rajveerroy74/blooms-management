@@ -38,7 +38,7 @@ public class UiClient {
             System.out.println("Title: " + cat.getTitle());
             System.out.println("Description: " + cat.getDesc());
             // FIXED getter name — adjust to your DTO
-            System.out.println("Image URL: " + cat.getcUrl());
+            System.out.println("Image URL: " + cat.getCUrl());
             System.out.println("----------------------------");
         }
 
@@ -101,6 +101,10 @@ public class UiClient {
     // Mock Service for standalone testing
     static class MockUserService extends in.rajveer.blooms.services.UserService {
         private java.util.Map<String, in.rajveer.blooms.models.User> users = new java.util.HashMap<>();
+
+        public MockUserService() {
+            super(null);
+        }
 
         @Override
         public String registerUser(in.rajveer.blooms.models.User user) {
