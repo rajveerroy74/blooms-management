@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: blooms-backend
+    env: docker
+    region: singapore
+    plan: free
+    branch: master
+    numInstances: 1
+    healthCheckPath: /
+    envVars:
+      - key: MONGO_URI
+        sync: false
