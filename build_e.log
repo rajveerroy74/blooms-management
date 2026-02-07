@@ -1,0 +1,178 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Users/HP/Downloads/apache-maven-3.9.11-bin/apache-maven-3.9.11/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< in.rajveer:blooms >--------------------------
+[INFO] Building blooms 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ blooms ---
+[INFO] Deleting C:\Users\HP\Desktop\backend project\blooms-blog-management-system\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ blooms ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ blooms ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 31 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/services/UserService.java:[37,20] constructor UserResponse in class in.rajveer.blooms.dto.UserResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[20,32] constructor CategoryRequest in class in.rajveer.blooms.dto.CategoryRequest cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[26,32] constructor CategoryRequest in class in.rajveer.blooms.dto.CategoryRequest cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[37,44] cannot find symbol
+  symbol:   method getId()
+  location: variable cat of type in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[38,47] cannot find symbol
+  symbol:   method getTitle()
+  location: variable cat of type in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[39,53] cannot find symbol
+  symbol:   method getDesc()
+  location: variable cat of type in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[41,51] cannot find symbol
+  symbol:   method getCUrl()
+  location: variable cat of type in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[46,34] constructor CategoryRequest in class in.rajveer.blooms.dto.CategoryRequest cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[49,61] cannot find symbol
+  symbol:   method getId()
+  location: class in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[76,29] constructor UserRequest in class in.rajveer.blooms.dto.UserRequest cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[97,68] cannot find symbol
+  symbol:   method getName()
+  location: variable loggedInUser of type in.rajveer.blooms.dto.UserResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[123,24] constructor UserResponse in class in.rajveer.blooms.dto.UserResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/CategoryController.java:[18,24] cannot find symbol
+  symbol:   method getCUrl()
+  location: variable request of type in.rajveer.blooms.dto.CategoryRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/CategoryController.java:[17,24] cannot find symbol
+  symbol:   method getDesc()
+  location: variable request of type in.rajveer.blooms.dto.CategoryRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/CategoryController.java:[16,24] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type in.rajveer.blooms.dto.CategoryRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[23,20] cannot find symbol
+  symbol:   method getUsername()
+  location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[24,20] cannot find symbol
+  symbol:   method getEmail()
+  location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[25,20] cannot find symbol
+  symbol:   method getName()
+  location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[26,20] cannot find symbol
+  symbol:   method getPassword()
+  location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[27,20] cannot find symbol
+  symbol:   method getProfileUrl()
+  location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[28,20] cannot find symbol
+  symbol:   method getPhoneNumber()
+  location: variable req of type in.rajveer.blooms.dto.UserRequest
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.119 s
+[INFO] Finished at: 2026-02-07T11:57:51+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project blooms: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/services/UserService.java:[37,20] constructor UserResponse in class in.rajveer.blooms.dto.UserResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[20,32] constructor CategoryRequest in class in.rajveer.blooms.dto.CategoryRequest cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[26,32] constructor CategoryRequest in class in.rajveer.blooms.dto.CategoryRequest cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[37,44] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable cat of type in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[38,47] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable cat of type in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[39,53] cannot find symbol
+[ERROR]   symbol:   method getDesc()
+[ERROR]   location: variable cat of type in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[41,51] cannot find symbol
+[ERROR]   symbol:   method getCUrl()
+[ERROR]   location: variable cat of type in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[46,34] constructor CategoryRequest in class in.rajveer.blooms.dto.CategoryRequest cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[49,61] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: class in.rajveer.blooms.dto.CategoryResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[76,29] constructor UserRequest in class in.rajveer.blooms.dto.UserRequest cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[97,68] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable loggedInUser of type in.rajveer.blooms.dto.UserResponse
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/UiClient.java:[123,24] constructor UserResponse in class in.rajveer.blooms.dto.UserResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/CategoryController.java:[18,24] cannot find symbol
+[ERROR]   symbol:   method getCUrl()
+[ERROR]   location: variable request of type in.rajveer.blooms.dto.CategoryRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/CategoryController.java:[17,24] cannot find symbol
+[ERROR]   symbol:   method getDesc()
+[ERROR]   location: variable request of type in.rajveer.blooms.dto.CategoryRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/CategoryController.java:[16,24] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type in.rajveer.blooms.dto.CategoryRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[23,20] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[24,20] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[25,20] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[26,20] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[27,20] cannot find symbol
+[ERROR]   symbol:   method getProfileUrl()
+[ERROR]   location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] /C:/Users/HP/Desktop/backend project/blooms-blog-management-system/src/main/java/in/rajveer/blooms/controller/UserController.java:[28,20] cannot find symbol
+[ERROR]   symbol:   method getPhoneNumber()
+[ERROR]   location: variable req of type in.rajveer.blooms.dto.UserRequest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
