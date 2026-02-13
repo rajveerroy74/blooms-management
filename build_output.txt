@@ -1,0 +1,87 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Users/HP/Downloads/apache-maven-3.9.11-bin/apache-maven-3.9.11/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< in.rajveer:blooms >--------------------------
+[INFO] Building blooms 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ blooms ---
+[INFO] Deleting C:\Users\HP\Desktop\backend project\blooms-blog-management-system\target
+[INFO] 
+[INFO] --- frontend:1.15.0:install-node-and-npm (install node and npm) @ blooms ---
+[INFO] Installing node version v20.11.0
+[INFO] Copying node binary from C:\Users\HP\.m2\repository\com\github\eirslett\node\20.11.0\node-20.11.0-win-x64.exe to C:\Users\HP\Desktop\backend project\blooms-blog-management-system\target\node\node.exe
+[INFO] Installed node locally.
+[INFO] Installing npm version 10.2.4
+[INFO] Unpacking C:\Users\HP\.m2\repository\com\github\eirslett\npm\10.2.4\npm-10.2.4.tar.gz into C:\Users\HP\Desktop\backend project\blooms-blog-management-system\target\node\node_modules
+[INFO] Installed npm locally.
+[INFO] 
+[INFO] --- frontend:1.15.0:npm (npm install) @ blooms ---
+[INFO] Running 'npm install' in C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend
+[INFO] npm WARN EBADENGINE Unsupported engine {
+[INFO] npm WARN EBADENGINE   package: '@vitejs/plugin-react@5.1.2',
+[INFO] npm WARN EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+[INFO] npm WARN EBADENGINE   current: { node: 'v20.11.0', npm: '10.2.4' }
+[INFO] npm WARN EBADENGINE }
+[INFO] npm WARN EBADENGINE Unsupported engine {
+[INFO] npm WARN EBADENGINE   package: 'vite@7.3.1',
+[INFO] npm WARN EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+[INFO] npm WARN EBADENGINE   current: { node: 'v20.11.0', npm: '10.2.4' }
+[INFO] npm WARN EBADENGINE }
+[INFO] 
+[INFO] changed 5 packages, and audited 246 packages in 15s
+[INFO] 
+[INFO] 56 packages are looking for funding
+[INFO]   run `npm fund` for details
+[INFO] 
+[INFO] found 0 vulnerabilities
+[INFO] 
+[INFO] --- frontend:1.15.0:npm (npm run build) @ blooms ---
+[INFO] Running 'npm run build' in C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend
+[INFO] 
+[INFO] > frontend@0.0.0 build
+[INFO] > vite build
+[INFO] 
+[INFO] You are using Node.js 20.11.0. Vite requires Node.js version 20.19+ or 22.12+. Please upgrade your Node.js version.
+[INFO] vite v7.3.1 building client environment for production...
+[INFO] transforming...
+[INFO] ? 3 modules transformed.
+[INFO] ? Build failed in 18.09s
+[INFO] error during build:
+[INFO] [vite:css] Failed to load PostCSS config (searchPath: C:/Users/HP/Desktop/backend project/blooms-blog-management-system/frontend): [Error] Loading PostCSS Plugin failed: Cannot find module 'caniuse-lite/dist/unpacker/feature'
+[INFO] Require stack:
+[INFO] - C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend\node_modules\browserslist\node.js
+[INFO] - C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend\node_modules\browserslist\index.js
+[INFO] - C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend\node_modules\autoprefixer\lib\autoprefixer.js
+[INFO] 
+[INFO] (@C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend\postcss.config.js)
+[INFO] Error: Loading PostCSS Plugin failed: Cannot find module 'caniuse-lite/dist/unpacker/feature'
+[INFO] Require stack:
+[INFO] - C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend\node_modules\browserslist\node.js
+[INFO] - C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend\node_modules\browserslist\index.js
+[INFO] - C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend\node_modules\autoprefixer\lib\autoprefixer.js
+[INFO] 
+[INFO] (@C:\Users\HP\Desktop\backend project\blooms-blog-management-system\frontend\postcss.config.js)
+[INFO]     at load (file:///C:/Users/HP/Desktop/backend%20project/blooms-blog-management-system/frontend/node_modules/vite/dist/node/chunks/config.js:7660:10)
+[INFO]     at async Promise.all (index 1)
+[INFO]     at async plugins (file:///C:/Users/HP/Desktop/backend%20project/blooms-blog-management-system/frontend/node_modules/vite/dist/node/chunks/config.js:7682:11)
+[INFO]     at async processResult (file:///C:/Users/HP/Desktop/backend%20project/blooms-blog-management-system/frontend/node_modules/vite/dist/node/chunks/config.js:7721:13)
+[INFO] file: C:/Users/HP/Desktop/backend project/blooms-blog-management-system/frontend/src/index.css
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:11 min
+[INFO] Finished at: 2026-02-07T18:16:49+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.github.eirslett:frontend-maven-plugin:1.15.0:npm (npm run build) on project blooms: Failed to run task: 'npm run build' failed. org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
